@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: opencl
+Description: OpenCL Library
+Version: 1.2
+Libs: -L${libdir} -lOpenCL
+Cflags: -I${includedir}
